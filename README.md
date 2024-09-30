@@ -27,11 +27,11 @@ I audit contracts written in solidity or vyper for EVM based chains. I also work
 	
  > Token decimal was incorrectly decoded while processing swap data which coul potentially cause overestimation or underestimation of prices. In some cases, dependent functions are denied of servive.
 
-5. Permanent, irreversible [loss](https://solodit.xyz/issues/c-01-fees-will-always-be-sent-to-address0-pashov-audit-group-none-lucidly-june-markdown) of protocol fees in Lucidly's staking contract.
+5. Permanent, irreversible [loss](https://github.com/pashov/audits/blob/master/team/md/Lucidly-security-review-June.md#c-01-fees-will-always-be-sent-to-address0) of protocol fees in Lucidly's staking contract.
 	
  > Fee address was not set in the constructor, and there was no corresponding function to set the address.
 
-6. Pool token cool-off period [bypass](https://solodit.xyz/issues/h-01-cool-off-period-for-deposits-in-swap-pools-can-be-bypassed-pashov-audit-group-none-nabla-markdown) in Nabla's SwapPool contract. 
+6. Pool token cool-off period [bypass](https://github.com/pashov/audits/blob/master/team/md/Nabla-security-review.md#h-01-cool-off-period-for-deposits-in-swap-pools-can-be-bypassed) in Nabla's SwapPool contract. 
 	
  > Pool tokens minted to users upon deposit could be transferred to another address to instantly redeem.
 
