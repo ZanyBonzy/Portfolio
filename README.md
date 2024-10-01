@@ -19,7 +19,7 @@ I audit contracts written in solidity or vyper for EVM based chains. I also work
   
   > Seller's airdrop benefits can be maliciously reduced by malicious buyers for little or no cost.
 
-3. Permanent [bricking](https://github.com/code-423n4/2024-05-olas-findings/issues/78) of Olas protocol's VoteWeighting contract.
+3. Permanent [bricking](https://github.com/code-423n4/2024-05-olas-findings/issues/78) of Olas's VoteWeighting contract.
 
   > The contract's Curve type slope calculation was not correctly updated when removing a nominee
 
