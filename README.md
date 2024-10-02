@@ -9,15 +9,15 @@ Organizations I've worked with include Code4rena, Sherlock Audits, CodeHawks, Pa
 
 I audit contracts written in solidity or vyper for EVM based chains. I also work on rust based smart contracts for Substrate, Cosmowasm and Solana based systems. For starknet based contracts, I have a good knowledge of cairo.
 
-## Highlights 🏆
+## Bug Highlights 🏆
 
 1. [Balance doubling bug](https://github.com/code-423n4/2024-03-acala-findings/issues/16) in Acala's ORML rewards library.
   
-  > Users can transfer their shares to themselves and effectively double their token balance;
+  > Users could transfer their shares to themselves and effectively double their balance;
 
 2. Griefing [attack](https://github.com/code-423n4/2024-07-traitforge-findings/issues/227) on users' minting rewards in TraitForge's NFT.
   
-  > Seller's airdrop benefits can be maliciously reduced by malicious buyers for little or no cost.
+  > Seller's airdrop benefits could be maliciously reduced by malicious buyers for little or no cost.
 
 3. Permanent [bricking](https://github.com/code-423n4/2024-05-olas-findings/issues/78) of Olas's VoteWeighting contract.
 
@@ -34,6 +34,21 @@ I audit contracts written in solidity or vyper for EVM based chains. I also work
 6. Pool token cool-off period [bypass](https://github.com/pashov/audits/blob/master/team/md/Nabla-security-review.md#h-01-cool-off-period-for-deposits-in-swap-pools-can-be-bypassed) in Nabla's SwapPool contract. 
 	
  > Pool tokens minted to users upon deposit could be transferred to another address to instantly redeem.
+
+7. Reward distribution [dilution](https://github.com/code-423n4/2024-02-althea-liquid-infrastructure-findings/issues/61) due to flawed distribution model.
+
+ > Disapproved users' tokens are factored into rewards calculation, unfairly reducing that of other users.
+
+8. ETH [lost](
+https://cantina.xyz/code/ac757733-81a4-43c7-8f49-17c5b135cdff/findings/540) during migration of Curvance's FeeAccumulator contract.
+
+ > The contract had no way of retrieving ETH, neither were ETH transfered to the new implementation during migration.
+
+9. Permanent [DOS](https://github.com/code-423n4/2024-04-noya-findings/issues/961) of withdrawals by a poisonous address
+
+ > Withdrawals were processed in a batches in a loop, so a malicious user could create a withdrawal request with an address that is blocked from receiving the underlying token. As far as the token can't be sent to the address, the withdrawal process will always fail, locking up funds. 
+ 
+
 
 Would like to view more?  Feel free to check my main contest pages.
 
