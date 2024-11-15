@@ -54,13 +54,13 @@ Would like to view more?  Feel free to check my main contest pages.
 
 - [Code4rena](https://code4rena.com/@ZanyBonzy)
 - [Sherlock](https://audits.sherlock.xyz/watson/ZanyBonzy)
-- [CodeHawks](https://codehawks.cyfrin.io/profile/clk9uu45r0000js08lnm9zbez)
+- [CodeHawks](https://profiles.cyfrin.io/u/zanybonzy)
 - [Cantina](https://cantina.xyz/u/ZanyBonzy)
 
 Perharps my pseudoaccount might interest you (mostly for judging);
 
 - [Code4rena](https://code4rena.com/@inh3l)
-- [CodeHawks](https://codehawks.cyfrin.io/profile/cluz81f0t0000tt2dk8pq7hzz)
+- [CodeHawks](https://profiles.cyfrin.io/u/inh3l) 
 
 #### Contact me (in order of relevance) ☎️
 - Discord: @zanybonzy
