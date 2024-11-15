@@ -65,5 +65,6 @@ Perharps my pseudoaccount might interest you (mostly for judging);
 #### Contact me (in order of relevance) ☎️
 - Discord: @zanybonzy
 - Telegram: @drugoiguy
+- Email: ZanyBonzy@proton.me
 - [Twitter](http://twitter.com/zanybonzy)
 - [Github](https://github.com/zanybonzy)
