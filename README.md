@@ -10,7 +10,9 @@ Organizations I've worked with include Code4rena, Sherlock Audits, CodeHawks, Pa
 I audit contracts written in solidity or vyper for EVM based chains. I also work on rust based smart contracts for Substrate, Cosmowasm and Solana based systems. For starknet based contracts, I have a good knowledge of cairo.
 
 ## Bug Highlights 🏆
+**PS: These bugs are highlighted not based on complexity, but on potential impact on the protocol ranging from loss of funds to permanent DOS**
 
+***
 1. [Balance doubling bug](https://github.com/code-423n4/2024-03-acala-findings/issues/16) in Acala's ORML rewards library.
   
   > Users could transfer their shares to themselves and effectively double their balance;
@@ -48,7 +50,7 @@ https://cantina.xyz/code/ac757733-81a4-43c7-8f49-17c5b135cdff/findings/540) duri
 
  > Withdrawals were processed in a batches in a loop, so a malicious user could create a withdrawal request with an address that is blocked from receiving the underlying token. As far as the token can't be sent to the address, the withdrawal process will always fail, locking up funds. 
  
-
+***
 
 Would like to view more?  Feel free to check my main contest pages.
 
